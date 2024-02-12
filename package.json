@@ -1,0 +1,38 @@
+{
+  "name": "api-cotacao-pg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.1.0",
+    "@types/node": "20.10.5",
+    "eslint": "8.56.0",
+    "prisma": "5.7.1",
+    "tsup": "8.0.1",
+    "tsx": "4.7.0",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@fastify/cookie": "9.2.0",
+    "@fastify/cors": "8.5.0",
+    "@fastify/jwt": "7.2.4",
+    "@prisma/client": "5.7.1",
+    "@types/bcrypt": "5.0.2",
+    "@types/bcryptjs": "2.4.6",
+    "@types/nodemailer": "6.4.14",
+    "bcrypt": "5.1.1",
+    "bcryptjs": "2.4.3",
+    "dotenv": "16.3.1",
+    "fastify": "4.13.0",
+    "nodemailer": "6.9.8",
+    "zod": "3.22.4"
+  }
+}

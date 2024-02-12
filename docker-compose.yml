@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  api-cotacao:
+    image: bitnami/postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRESQL_USERNAME=tdlist
+      - POSTGRESQL_PASSWORD=tdlist
+      - POSTGRESQL_DATABASE=apitdlist
